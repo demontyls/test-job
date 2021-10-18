@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;1,300&display=swap');
+.body {
+    margin: 0;
+}
+.main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.text {
+    font-size: 18px;
+    font-family: jost;
+    line-height: 27px;
+    margin: 0;
+}
+.link {
+    color: #fff;
+    font-size: 18px;
+    font-family: jost;
+    line-height: 27px;
+    text-decoration: none;
+}
+.title {
+    font-size: 36px;
+    line-height: 45px;
+    font-family: jost;
+    font-weight: 600;
+}
+@media (max-width: 400px){
+    .text {
+        font-size: 15px;
+        line-height: 21px
+    }
+    .title {
+        line-height: 30px
+    }
+}
+@import "header";
+@import "advant";
+@import "about";
+@import "footer";
